@@ -1,0 +1,20 @@
+{
+  "name": "Lepszy Librus",
+  "version": "0.01",
+  "description": "-",
+  "action": {
+      "default_icon": "icon-128px.png",
+      "default_popup": "index.html",
+      "default_title": "LepszyLibrus"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://synergia.librus.pl/*"],
+      "js": ["content.js"],
+      "css": ["css.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "host_permissions": ["https://synergia.librus.pl/*"],
+  "manifest_version": 3
+}

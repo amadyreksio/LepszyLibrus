@@ -1,0 +1,86 @@
+.amadyreksio-librus-edit-btn{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: translate(-50%,-2px);
+}
+.amadyreksio-librus-popup{
+width: 300px;
+height: 200px;
+background-color: rgb(35,35,35);
+border-radius: 5px;
+border: solid 2px black;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+animation: amadyreksio-librus-showup .2s ease;
+}
+.amadyreksio-librus-inputtb{
+width: 90%;
+left: 50%;
+transform: translate(-50%);
+position: absolute;
+height: 25px;
+border-radius: 5px;
+background-color: rgb(45,45,45);
+border: solid 2px black;
+transition: all .2s ease;
+}
+.amadyreksio-librus-inputtb:hover{
+    box-shadow: 0px 0px 5px aqua;
+}
+@keyframes amadyreksio-librus-showup{
+    0%{transform: translate(-50%,-50%) scale(0.1) rotate(90deg);}
+    100%{transform: translate(-50%,-50%) scale(1) rotate(0deg);}
+}
+@keyframes amadyreksio-librus-hidedown{
+    0%{transform: translate(-50%,-50%) scale(1) rotate(0deg);}
+    100%{transform: translate(-50%,-50%) scale(0.1) rotate(90deg);}
+}
+.amady-anim-show{
+animation: amadyreksio-librus-showup .2s ease;
+}
+.amady-anim-hide{
+animation: amadyreksio-librus-hidedown .2s ease;
+}
+.amadyreksio-librus-cls{
+width: 20px;
+position: fixed;
+top: 5px;
+right: 5px;
+width: 20px;
+height: 20px;
+transition: all .2s ease;
+}
+.amadyreksio-librus-cls:hover{
+    transform: scale(0.9);
+}
+.amadyreksio-librus-cls:active{
+    transform: scale(0.8);
+}
+.amadyreksio-librus-btn{
+width: 50%;
+left: 50%;
+transform: translate(-50%);
+bottom: 10px;
+position: absolute;
+height: 35px;
+border-radius: 5px;
+background-color: rgb(45,45,45);
+border: solid 2px black;
+transition: all .2s ease;
+color: white;
+font-family: 'Calibri';
+transition: all .2s ease;
+}
+.amadyreksio-librus-btn:hover{
+    box-shadow: 0px 0px 5px aqua;
+}
+.amadyreksio-librus-btn:active{
+    transform: translate(-50%) scale(0.9);
+}
