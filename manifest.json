@@ -1,7 +1,7 @@
 {
   "name": "Lepszy Librus",
   "version": "0.01",
-  "description": "-",
+  "description": "Rozszerzenie umożliwiające zmienianie ocen w twoim dzienniku librus 🤯.",
   "action": {
       "default_icon": "icon-128px.png",
       "default_popup": "index.html",
@@ -16,5 +16,12 @@
     }
   ],
   "host_permissions": ["https://synergia.librus.pl/*"],
+  "icons": {
+    "48": "icon-48px.png",
+    "128": "icon-128px.png"
+  },
+  "permissions": [
+    "storage"
+  ],
   "manifest_version": 3
 }
